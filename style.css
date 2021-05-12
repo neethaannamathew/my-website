@@ -1,68 +1,49 @@
-body {
-    padding-top: 800px;
-    margin: 0;
-}
-
-.profile {
-    width: 175px;
-    border-radius: 50%;
-    margin-bottom: 50px;
-}
-
-#welcome {
-    
-    position: absolute;
-    overflow: hidden;
-    height: 800px;
-    color: #FFFFFF;
-   left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.8;
-    background-image: linear-gradient(#60ebeb, #27ae60);
-    display: table;
-    width: 100%;
-    height: 100%;
-}
-
-.parallax-inner {
-    display: table-cell;
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-}
-h1{
-    font-size: 40px;
-    line-height: 1.2;
-    font-family: inherit;
-    font-weight: 300;
-}
-#name{
-    font-size: 30px;
-    line-height: 1.2;
-    font-family:cursive;
-}
-h2{
-    font-size: 30px;
-    font-weight: 300px;
-    line-height: 1.2;
-    font-family: monospace;
-}
-#bio{
-    padding: 50px;
-    text-align: center;
-    font-size: 42px;
-}
-.line{
-    background-color: black;
-    width:70px;
-    height:7px;
-    margin:8px auto;
+.travel_div{
+    border:1px solid grey;
+   
 }
 p{
-    max-width: 450px;
-    margin:25px auto;
-    font-size: 17px;
-    line-height: 1.3;
+    padding:10px;
+}
+nav{
+   position: sticky;
+    z-index: 99999;
+    top:0;
+}  
+.movie_name{
+      font-size: 25px;
+    padding:5px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+    
+}
+.movie_name i{
+    float:right;
+   
+}
+h5 span{
+    color:gold;
+}
+.page-header{
+    border-width:thick;
+    border-bottom: black;
+}
+.environment_li h4
+{
+    border-bottom: 1px solid white;
+   
+}
+.environment_li{
+    margin: 15px;
+}
+
+.modal-content
+{
+  margin-top: 100px;
+}
+.book
+{
+  cursor: pointer;
 }
